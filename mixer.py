@@ -118,7 +118,7 @@ linux= [ "https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.zip", "h
 malware=['https://0x00sec.org/t/malware-reversing-burpsuite-keygen/5167','http://185.172.128.8/ma.exe']
 phis = [ 'http://data.phishtank.com/data/online-valid.json.bz2', 'https://ussp.usspyn.top', 'https://kimbonusister.net', 'https://dibbs.ai.arizona.edu/dibbs/azsecure-phishingwebsites-3/output_20257-21113.tar', 'https://dibbs.ai.arizona.edu/dibbs/azsecure-phishingwebsites-3/output_18823-19665.tar', 'https://ipfs.eth.aragon.network/ipfs/bafybeicli5rykqzju75bhact3z3xwhmdvx537w5jpllw56ja3jp7nthocy/nnooddvneng.html' ]
 print('\033[31m'+pyfiglet.figlet_format("S A L V A T O R",font='slant')+ "\n "+'\033[34m'+"_"*67+white)
-print('1-get a mix of profane words\n2-get a sex link\n3-IP hasas\n4-creat bug\n5-get algorithm\n6-github mokhareb\n7-bug hangi\n8-"HTML bug with porn violation\n8-algorithm bugy\n10-Sensitive words mixed with sensitive IPs\n11-terrorist downloader\n12-terrorist website\n13-anti-Islamic website\n14-anti leader site\n15-jalb konandeh\n16-bug server\n17-site hacking\n18-sensitive Python virus site\n19-Sensitive translation of profanity mixed with related sensitive site\n20-Satanic website\n21-phishing violation site\n22-bug PHP\n23-sensitive virus sites\n24-porn dxprit(ds)\n25-site of the Israeli Army Organization\n26-python destructive\n27-fata destructive\n28-linux destructive\n29-malware destructive\n30-phishing destructive')
+print('1-get a mix of profane words\n2-get a sex link\n3-IP hasas\n4-creat bug\n5-get algorithm\n6-github mokhareb\n7-bug hangi\n8-"HTML bug with porn violation\n8-algorithm bugy\n10-Sensitive words mixed with sensitive IPs\n11-terrorist downloader\n12-terrorist website\n13-anti-Islamic website\n14-anti leader site\n15-jalb konandeh\n16-bug server\n17-site hacking\n18-sensitive Python virus site\n19-Sensitive translation of profanity mixed with related sensitive site\n20-Satanic website\n21-phishing violation site\n22-bug PHP\n23-sensitive virus sites\n24-porn dxprit(ds)\n25-site of the Israeli Army Organization\n26-python destructive\n27-fata destructive\n28-linux destructive\n29-malware destructive\n30-phishing destructive\n31-exit')
 while True:
     choice = input('enter your choice: ')
 
@@ -234,3 +234,7 @@ while True:
         print(rand)
     elif choice == '30':
         rand = random.choice(phis)
+    elif choice == '31':
+        break
+    else:
+        print(f'no item with "{choice}" number')
